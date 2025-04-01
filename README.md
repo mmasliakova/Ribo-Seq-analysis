@@ -1,7 +1,7 @@
 # Ribo-Seq-analysis
 
-Запускать ноутбук Riboseq.ipynb
+Run notebook Riboseq.ipynb
 
-Из-за проблем с установкой DESeq2 в питоновском ноутбуке, часть с анализом дифференциальной экспрессии я выполнила в R. Для запуска ноутбука "Differential expression analysis" нужен файл 'design.tsv' и '01. RiboSeq_RNASeq_HCC_counts.tsv'.
+Due to problems with installing DESeq2 in a Python notebook, I performed the part with differential expression analysis in R. To start the "Differential expression analysis" notebook, you need a file 'design.tsv' and '01. RiboSeq_RNA Seq_HC_counts.tsv'.
 
-Затем полученные данные анализа были обработаны в питоне с использованием файлов 'rna_deseq.tsv', 'rpf_deseq.tsv' и 'total_deseq.tsv'
+The obtained analysis data was then processed in Python using the files 'raw_diseq.tsv', 'rpf_deseq.tsv', and 'total_deseq.tsv'
